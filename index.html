@@ -3,21 +3,30 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Events Desk</title>
+<title>Project videos</title>
 <style>
-  body { margin: 0; background: #fff; color: #15231B; font: 17px/1.6 -apple-system, BlinkMacSystemFont, system-ui, sans-serif; }
-  main { max-width: 640px; margin: 0 auto; padding: 72px 24px; }
-  h1 { font-size: 34px; font-weight: 500; margin: 0 0 16px; }
-  a { color: #1F5D3F; }
-  p { margin: 0 0 16px; }
+  body { margin: 0; background: #fff; color: #12161D; font: 16px/1.55 -apple-system, BlinkMacSystemFont, system-ui, sans-serif; }
+  main { max-width: 960px; margin: 0 auto; padding: 48px 16px 64px; display: grid; gap: 40px; }
+  h1 { font-size: 30px; font-weight: 600; letter-spacing: -0.02em; margin: 0; }
+  h2 { font-size: 20px; font-weight: 600; margin: 0 0 4px; }
+  p { margin: 0 0 12px; color: #4A5260; }
+  video { width: 100%; border-radius: 12px; background: #000; }
+  a { color: #2B47C9; }
 </style>
 </head>
 <body>
 <main>
-  <h1>Events Desk</h1>
-  <p>Events Desk helps a go-to-market team run conference outreach all year. It handles seat requests, turns an attendee list into a checked outreach list, and delivers that list as a Google Sheet.</p>
-  <p>It is a portfolio project by Bryan Acevedo.</p>
-  <p><a href="privacy.html">Privacy policy</a></p>
+  <div><h1>Project videos</h1><p>Walkthrough films of portfolio builds by Bryan Acevedo. Each demo uses invented companies and people, and simulated vendors.</p></div>
+  <section>
+    <h2>Account Desk (2:01)</h2>
+    <p>Signal and account based outbound: one account from a signal to a deal. <a href="https://github.com/bryanacevedo/account-desk">Code</a> &middot; <a href="https://account-desk-x4ko.onrender.com">Live demo</a></p>
+    <video src="video/account-desk.mp4" poster="video/account-desk-poster.jpg" controls playsinline preload="metadata"></video>
+  </section>
+  <section>
+    <h2>Events Desk (3:41)</h2>
+    <p>Conference outreach all year, from the seat request to the result. <a href="https://github.com/bryanacevedo/events-desk">Code</a> &middot; <a href="https://events-desk.onrender.com">Live demo</a></p>
+    <video src="video/events-desk.mp4" poster="video/events-desk-poster.jpg" controls playsinline preload="metadata"></video>
+  </section>
 </main>
 </body>
 </html>
